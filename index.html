@@ -555,6 +555,13 @@
             $('.loader').fadeOut(1000)
         }, 4000);
 
+        $('.mob_main_menu').hide();
+
+        $('.toggle_btn').click(function () {
+            $(this).find('i').toggleClass('fa-times fa-bars')
+            $('.mob_main_menu').slideToggle()
+        })
+
         new WOW().init();
 
     </script>
