@@ -24,7 +24,13 @@ module.exports = {
       '2xl': '1400px',
      
     },
-    extend: {},
+    extend: {
+      fontSize:{
+        '38':'38px',
+        '44':'44px',
+        '48':'48px',
+      },
+    },
   },
   plugins: [],
 }

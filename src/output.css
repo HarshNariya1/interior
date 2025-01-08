@@ -882,6 +882,11 @@ video {
   background-color: rgb(240 240 240 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -894,11 +899,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -964,6 +964,11 @@ video {
   padding-right: 15px;
 }
 
+.px-\[48px\] {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -989,6 +994,11 @@ video {
   padding-bottom: 120px;
 }
 
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .py-\[25px\] {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -997,26 +1007,6 @@ video {
 .py-\[70px\] {
   padding-top: 70px;
   padding-bottom: 70px;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[12px\] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[48px\] {
-  padding-left: 48px;
-  padding-right: 48px;
 }
 
 .pb-28 {
@@ -1081,10 +1071,6 @@ video {
 
 .font-\[Roboto\] {
   font-family: Roboto;
-}
-
-.font-\[Os\] {
-  font-family: Os;
 }
 
 .text-2xl {
@@ -1155,27 +1141,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[48px\] {
-  font-size: 48px;
-}
-
-.text-\[44px\] {
-  font-size: 44px;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-sm\/\[17px\] {
-  font-size: 0.875rem;
-  line-height: 17px;
-}
-
-.text-sm\/\[18px\] {
-  font-size: 0.875rem;
-  line-height: 18px;
+.text-\[38px\] {
+  font-size: 38px;
 }
 
 .font-bold {
@@ -1430,6 +1397,11 @@ html{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-\[\#4a6a12\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 106 18 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1438,11 +1410,6 @@ html{
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#4a6a12\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 106 18 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-900:hover {
@@ -1476,12 +1443,12 @@ html{
     padding-top: 60px;
   }
 
-  .sm\:text-\[18px\] {
-    font-size: 18px;
-  }
-
   .sm\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .sm\:text-38 {
+    font-size: 38px;
   }
 }
 
@@ -1559,12 +1526,12 @@ html{
     padding-top: 88px;
   }
 
-  .md\:text-\[32px\] {
-    font-size: 32px;
+  .md\:text-44 {
+    font-size: 44px;
   }
 
-  .md\:text-\[44px\] {
-    font-size: 44px;
+  .md\:text-\[32px\] {
+    font-size: 32px;
   }
 }
 
@@ -1640,6 +1607,10 @@ html{
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-48 {
+    font-size: 48px;
   }
 
   .lg\:text-\[24px\] {
